@@ -19,7 +19,7 @@ public class phone_manage {
 		ArrayList<Phone> list = new ArrayList<Phone>();
 		Phone ph = new Phone();
 		System.out.println("*****************************************");
-		System.out.println("*			전화번호 관리 프로그램				*");
+		System.out.println("*\t         전화번호 관리 프로그램\t        *");
 		System.out.println("*****************************************");
 		Scanner sc = new Scanner(System.in);
 		while(true){
@@ -136,7 +136,7 @@ public class phone_manage {
 				br.close();
 			} else if(num == 5) {
 				System.out.println("*****************************************");
-				System.out.println("*				감사합니다.				*");
+				System.out.println("*\t\t감사합니다.\t\t*");
 				System.out.println("*****************************************");
 				break;	
 			} else {
